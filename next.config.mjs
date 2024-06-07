@@ -1,8 +1,8 @@
-/ next.config.mjs
-
 const nextConfig = {
-  output: 'export',
-  // Add other configurations here if necessary
+  // Remove the 'output' option and place 'export' directly under the 'experimental' key
+  experimental: {
+    output: 'export',
+  },
 };
 
 export default nextConfig;
